@@ -19,19 +19,19 @@
 <!--flexbox-->
 <center><form method="post" action="" class="grupo-entradas">
     <div class="mb-3">
-        <label for="ID">Document </label> </div>
+        <label for="id">Document </label> </div>
     <input type="text" id="ID" name="ID" placeholder="Ingresar su documento" required>
     <div class="mb-3">
-    <label for="NAME">name </label> </div>
+    <label for="name">name </label> </div>
     <input type="text" id="NAME" name="NAME" placeholder="Ingresar nombre" required autofocus pattern="[A-Za-z ]{2,40}">
     <div class="mb-3">
-        <label for="LASTNAME">Lastname </label> </div>
+        <label for="lastname">Lastname </label> </div>
     <input type="text" id="LASTNAME" name="LASTNAME" placeholder="ingresar apellido" required pattern="[A-Za-z ]{2,40}">
     <div class="mb-3">
-    <label for="EMAIL"> Email </label> </div>
-    <input type="EMAIL" id="EMAIL" name="EMAIL" placeholder="Ingresar correo electonico" required pattern="[60}">
+    <label for="email"> Email </label> </div>
+    <input type="email" id="EMAIL" name="EMAIL" placeholder="Ingresar correo electonico" required pattern="[60}">
     <div class="mb-3">
-    <label for="PASSWORD">Password </label> </div>
+    <label for="password">Password </label> </div>
     <input type="password" id="PASSWORD" name="PASSWORD" placeholder="Ingresar la contraseña" required pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$">
 
     </select>
