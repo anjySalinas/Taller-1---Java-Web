@@ -32,7 +32,7 @@
     <input type="email" id="EMAIL" name="EMAIL" placeholder="Ingresar correo electonico" required pattern="[60}">
     <div class="mb-3">
     <label for="password">Password </label> </div>
-    <input type="password" id="PASSWORD" name="PASSWORD" placeholder="Ingresar la contraseña" required pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$">
+    <input type="password" id="PASSWORD" name="PASSWORD" placeholder="Ingresar la contraseña" required pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,15}$">
 
     </select>
 
